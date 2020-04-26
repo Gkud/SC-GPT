@@ -1,0 +1,22 @@
+[
+  [
+    "inform(ingredient='avocados and buttermilk';recipetitle='ginger pickled red cabbage')",
+    "ginger pickled red cabbage requires avocados and buttermilk",
+    "ginger pickled red cabbage requires avocados and buttermilk"
+  ],
+  [
+    "?select(veg='yes';veg='no')",
+    "do you want a veg or a non-veg recipe",
+    "do you want a veg or a non-veg recipe"
+  ],
+  [
+    "instruct(ingredient='fish'; item='bowl')",
+    "clean and transfer the fish in a bowl",
+    "clean and transfer the fish in a bowl"
+  ],
+  [
+    "bye()",
+    "bye, have a good healthy day",
+    "bye, have a good healthy day"
+  ]
+]

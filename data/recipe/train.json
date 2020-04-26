@@ -1,0 +1,107 @@
+[
+  [
+    "?confirm(recipetype='sour and spicy')",
+    "just to make sure , you are looking for something sour and spicy",
+    "just to make sure , you are looking for something sour and spicy"
+  ],
+  [
+    "?request(recipetype)",
+    "what type of recipe are you looking for",
+    "what type of recipe are you looking for"
+  ],
+  [
+    "inform(recipetype='healthy and sweet';recipetitle='mango avocado smoothie')",
+    "let us see what we have that is both healthy and sweet. hmm.. how about a mango avocado smoothie",
+    "let us see what we have that is both healthy and sweet. hmm.. how about a mango avocado smoothie"
+  ],
+  [
+    "inform(recipetitle='oats'; nutritionvalue='high')",
+    "yes, eating oats is healthy. It has a high nutritional value",
+    "yes, eating oats is healthy. It has a high nutritional value"
+  ],
+  [
+    "goodbye()",
+    "goodbye",
+    "goodbye"
+  ],
+  [
+    "inform(ingredient='dried goji berries, cornstarch and apple juice';recipetitle='taco seasoning mix')",
+    "ingredients for taco seasoning mix are dried goji berries, cornstarch and apple juice",
+    "ingredients for taco seasoning mix are dried goji berries, cornstarch and apple juice"
+  ],
+  [
+    "inform(atmosphere='chilly evening')",
+    "it is the perfect recipe for a chilly evening",
+    "it is the perfect recipe for a chilly evening"
+  ],
+  [
+    "instruct(item='serving dish')",
+    "layer all ingredients in a serving dish",
+    "layer all ingredients in a serving dish"
+  ],
+  [
+    "?select(withegg='yes';withegg='no')",
+    "would you like it with or without eggs",
+    "would you like it with or without eggs"
+  ],
+  [
+    "?request(allergic)",
+    "may i ask if you are allergic to any ingredient",
+    "may i ask if you are allergic to any ingredient"
+  ],
+  [
+    "instruct(ingredient='low sodium baking powder and flour')",
+    "mix together low sodium baking powder and flour",
+    "mix together low sodium baking powder and flour"
+  ],
+  [
+    "?confirm(recipetitle='vegan cheezy quackers')",
+    "can i confirm that you asked for the recipe of vegan cheezy quackers",
+    "can i confirm that you asked for the recipe of vegan cheezy quackers"
+  ],
+  [
+    "?reqmore()",
+    "can i help you with anything else",
+    "can i help you with anything else"
+  ],
+  [
+    "?request(recipetitle='grecian tofu balls'; snacktime='lunch')",
+    "would you like to have some delicious grecian tofu balls for lunch",
+    "would you like to have some delicious grecian tofu balls for lunch"
+  ],
+  [
+    "?select(sugarsallowed='yes';sugarsallowed='no')",
+    "do you want a drink with sugar or sugarless",
+    "do you want a drink with sugar or sugarless"
+  ],
+  [
+    "inform_substitute(substituteingredient='whole wheat flour';value='healthy';ingredient='white flour')",
+    "please add whole wheat flour instead of white flour, it is more healthy",
+    "please add whole wheat flour instead of white flour, it is more healthy"
+  ],
+  [
+    "bye()",
+    "bye, have a good healthy day",
+    "bye, have a good healthy day"
+  ],
+  [
+    "inform_substitute(substituteingredient='stevia'; ingredient='splenda'; substituteingredient='pure vanilla extract'; ingredient='coffee')",
+    "i will make just a couple of changes. use stevia instead of splenda and use pure vanilla extract instead of the coffee",
+    "i will make just a couple of changes. use stevia instead of splenda and use pure vanilla extract instead of the coffee"
+  ],
+  [
+    "instruct(ingredient='chicken'; item='rubber spatula')",
+    "add the chicken and use a rubber spatula to mix well",
+    "add the chicken and use a rubber spatula to mix well"
+  ],
+  [
+    "instruct(ingredient='meat'; size='1/4-inch-thick strips')",
+    "cut the meat into 1/4-inch-thick strips as instructed in the recipe",
+    "cut the meat into 1/4-inch-thick strips as instructed in the recipe"
+  ],
+  [
+    "instruct(ingredient='meat'; item='bowl')",
+    "transfer the paste to a clean bowl and repeat with the remaining meat",
+    "transfer the paste to a clean bowl and repeat with the remaining meat"
+  ]
+]
